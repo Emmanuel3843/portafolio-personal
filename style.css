@@ -1,0 +1,149 @@
+style {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  text-decoration: underline;
+}
+
+h2 {
+  border-bottom: 2px solid #75afe9;
+  padding-bottom: 5px;
+}
+h3 {
+  border-bottom: 2px solid #5d8bb9;
+  padding-bottom: 5px;
+  color: #1976d2;
+  font-size: 1.4rem;
+}
+.perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4a8cce;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #b9e4f8;
+  color: #222222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #1976d2;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #a19e9e;
+  color: #555;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  max-width: 400px;
+  margin: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #d7edf8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1976d2;
+}
+input {
+  padding: 17px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: #9bc7f0;
+  margin-bottom: 30px;
+  outline: none;
+  color: #080808;
+  font-size: 16px;
+}
+::placeholder {
+  color: #767677;
+}
+.btn {
+  background-color: #1976d2;
+  border: #1976d2;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #1976d2;
+  border: #222222;
+}
+@media (max-width: 991px) {
+  body {
+    padding: 30px;
+  }
+  form {
+    width: 340px;
+  }
+}
